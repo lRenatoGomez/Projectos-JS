@@ -37,7 +37,7 @@ function precios () {
     if ( 40 <dinero && dinero <= 100 ) {alert ("Con este presupuesto te recomendamos nuestros productos de acero quirurgico")}
     else if (100< dinero && dinero <=180) {alert ("Con este presupuesto te recomendamos nuestros productos de plata")}
     else if ( 180 < dinero) {alert ("Con este presupuesto te recomendamos nuestros productos de Oro")}
-    else if (dinero <=40) {alert ("Lo sentimos, tenemos nada para ofrecerte con este presupuesto")}
+    else if (dinero <=40) {alert ("Lo sentimos, no tenemos nada para ofrecerte con este presupuesto")}
 }
 
 saludo()
