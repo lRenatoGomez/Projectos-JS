@@ -4,14 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="visual.css">
 </head>
-<body>
-    <h1>JOYERIA</h1>
+<body class="container">
+    <h1 class="text-center">JOYERIA</h1>
+
+    <nav class="navbar navbar-expand-lg" style="background-color:#b5daf4 ;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Carrito</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container-body container" >
+        <article class="container-products">
+        
+            <div class="product">
+                <img class="product-img" src="./Productos/Anillos/anillo-aurelia.webp" alt="">
+                <div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">Anillo Aurelia</p>
+                    <p class="precio">$400</p>
+                    
+                    <button class="b-comprar">Comprar</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Anillos/anillo-aymerick.webp" alt="">
+                    <div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">anillo-aymerick</p>
+                    <p class="precio">$200</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img class="product-img" src="./Productos/Anillos/anillo-bastian.webp" alt="">
+                    <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">anillo-bastian</p>
+                    <p class="precio">$350</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Anillos/anillo-indivar.webp" alt="">
+                <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">anillo-indivar</p>
+                    <p class="precio">$600</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Collares/collar-colin.webp" alt="">
+                <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">Collar Colin</p>
+                    <p class="precio">$650</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Collares/collar-kendra.webp" alt="">
+                <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">Collar Kendra</p>
+                    <p class="precio">$600</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Collares/collar-reece.webp" alt="">
+                <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">Collar Reece</p>
+                    <p class="precio">$600</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+            <div class="product">
+                <img class="product-img" src="./Productos/Collares/collar-thimoty.webp" alt="">
+                <Div class="info">
+                    <p style=" margin-top: 13px;" class="nombre">Collar Thimoty</p>
+                    <p class="precio">$600</p>
+                    
+                    <button  class="b-comprar">Comprar</button>
+                </Div>
+            </div>
+
+
+        </article>
+      </section>
+      
+      <div class="carrito container col-12 text-center">
+        <div class="row">
+        <div class=" col-3"> <h2>Cantidad</h2></div>
+        <div class="col-3"><h2>Producto</h2></div>
+        <div class="col-3"><h2>Precio</h2></div>
+
+
+        <div class="row-product" >
+       <div class="cart-product">
+
+            <div class="row col-12  info-cart-product">
+                <div class="col-3 cantidad">10</div>
+                <div class="col-3 nombre"> anillo</div>
+                <div class="col-3 precio">100</div>
+                <div class="col-1  eliminar"><i class="bi bi-x-circle  "></i></div>
+            
+
+            </div>
+        </div>
+         </div>
+
+         <div class=" col-12  row" style="margin-top: 50px;">
+            <div class= "row justify-content-center ">
+                <div class="col-2"><h2>Total $</h2></div>
+                <div class="col-1 p-0 m-0"><h2 class="total">1232</h2></div>
+            </div>
+      </div>
 
 
 
 
-
-<script src="entrega1.js"></script>
+<script src="data.js"></script>
 </body>
 </html>

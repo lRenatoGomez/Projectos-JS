@@ -1,0 +1,25 @@
+.container-body{ margin-top: 150px;}
+
+.container-products{ display: flex; gap: 13px; flex-wrap: wrap;}
+
+.product{ 
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: rgb(158, 191, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.product-img{
+    width: 100%;
+    height: 70%;
+}
+.b-comprar{ float: right; width: 30%;
+            padding: 0px;
+}
+
+.carrito{
+    border: 2px solid blue;
+    margin-top: 200px;
+}
