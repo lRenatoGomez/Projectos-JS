@@ -33,7 +33,7 @@
         "quantity": 1,
         "title": "Collar Colin",
         "price": 110,
-        "image": "./Productos/collares/collar-colin.webp"
+        "image": "./Productos/Collares/collar-colin.webp"
       },
       {
         "id": "C",
@@ -61,28 +61,28 @@
         "quantity": 1,
         "title": "Brazalete Izzie",
         "price": 200,
-        "image": "./Productos/pulseras/brazalete-izzie.webp"
+        "image": "./Productos/Pulseras/brazalete-izzie.webp"
       },
       {
         "id": "P",
         "quantity": 1,
         "title": "Pulsera Carlee",
         "price": 210,
-        "image": "./Productos/pulseras/pulsera-carlee.webp"
+        "image": "./Productos/Pulseras/pulsera-carlee.webp"
       },
       {
         "id": "P",
         "quantity": 1,
         "title": "Pulsera Lowell",
         "price": 260,
-        "image": "./Productos/pulseras/pulsera-lowell.webp"
+        "image": "./Productos/Pulseras/pulsera-lowell.webp"
       },
       {
         "id": "P",
         "quantity": 1,
         "title": "Pulsera Maxim",
         "price": 250,
-        "image": "./Productos/Pulseras/Pulsera-maxim.webp"
+        "image": "./Productos/Pulseras/pulsera-maxim.webp"
       }
     ]
       
