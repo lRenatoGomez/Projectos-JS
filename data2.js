@@ -92,7 +92,7 @@ const eliminaCarrito = (e, product) =>{
  shoppingList()
 } 
 
-
+//muestra los productos
 const showHTML = (products) => {
 container.innerHTML= ''; // limpiar contenedor
 
@@ -149,7 +149,7 @@ showHTML(allProducts)
 
 
 
-
+//filtros
 
 anillosbutton.addEventListener ('click', () => {
   const filterProduct = allProducts.filter(producto => producto.id === "A")
