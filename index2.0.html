@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="visual.css">
+
+
+</head>
+<body class="container" >
+    <h1 class="text-center marca">JOYERIA</h1>
+
+    <nav>
+      <a href="" class="inicio">Inicio</a>
+      <a href="#" class="anillos">Anillos</a>
+      <a href="#" class="collares">Collares</a>
+      <a href="#" class="pulseras">Pulseras</a>
+      
+      <a href="#" class="btt-carrito">Carrito</a>
+    </nav>
+
+      <section class="content" >
+
+        <div class="fixed inset-y-0 right-0 flex max-w-full pl-10 carrito View z-50">
+          <div class="pointer-events-auto w-screen max-w-md">
+            <div class="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
+              <div class="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
+                <div class="flex items-start justify-between">
+                  <h2 class="text-lg font-medium text-gray-900" id="slide-over-title">Shopping cart</h2>
+                  <div class="ml-3 flex h-7 items-center">
+                    <button type="button" class="relative -m-2 p-2 text-gray-400 hover:text-gray-500">
+                      <span class="absolute -inset-0.5 close"></span>
+                      <span class="sr-only">Close panel</span>
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+  
+                <div class="mt-8 containeritem">
+                  <div class="flow-root">
+                    <ul role="list" class="-my-6 divide-y divide-gray-200 cartList">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
+                <div class="flex justify-between text-base font-medium text-gray-900">
+                  <p>Subtotal</p>
+                  <p class="total">0</p>
+                </div>
+                <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
+                <div class="mt-6">
+                  <a class="flex items-center finalizaCompra justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">Checkout</a>
+                </div>
+                <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
+                  <p>
+                    
+                    <button type="button" class="font-medium  text-indigo-600 hover:text-indigo-500">
+                     
+                      
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <article class="container-products">
+          
+
+
+
+        </article>
+    </section>
+
+
+
+
+<script src="data2.js"></script>
+
+</body>
+</html>

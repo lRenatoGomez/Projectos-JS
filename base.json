@@ -1,0 +1,92 @@
+{
+    "products": [
+      {
+        "id": "A",
+        "quantity": 1,
+        "title": "Anillo Aurelia",
+        "price": 50,
+        "image": "./Productos/Anillos/anillo-aurelia.webp"
+      },
+      {
+        "id": "A",
+        "quantity": 1,
+        "title": "Anillo Aymerick",
+        "price": 65,
+        "image": "./Productos/Anillos/anillo-aymerick.webp"
+      },
+      {
+        "id": "A",
+        "quantity": 1,
+        "title": "Anillo Bastian",
+        "price": 80,
+        "image": "./Productos/Anillos/anillo-bastian.webp"
+      },
+      {
+        "id": "A",
+        "quantity": 1,
+        "title": "Anillo Indivar",
+        "price": 95,
+        "image": "./Productos/Anillos/anillo-indivar.webp"
+      },
+      {
+        "id": "C",
+        "quantity": 1,
+        "title": "Collar Colin",
+        "price": 110,
+        "image": "./productos/collares/collar-colin.webp"
+      },
+      {
+        "id": "C",
+        "quantity": 1,
+        "title": "Collar Kendra",
+        "price": 120,
+        "image": "./productos/collares/collar-kendra.webp"
+      },
+      {
+        "id": "C",
+        "quantity": 1,
+        "title": "Collar Reece",
+        "price": 135,
+        "image": "./productos/collares/collar-reece.webp"
+      },
+      {
+        "id": "C",
+        "quantity": 1,
+        "title": "Collar Thimoty",
+        "price": 160,
+        "image": "./productos/collares/collar-thimoty.webp"
+      },
+      {
+        "id": "P",
+        "quantity": 1,
+        "title": "Brazalete Izzie",
+        "price": 200,
+        "image": "./productos/pulseras/brazalete-izzie.webp"
+      },
+      {
+        "id": "P",
+        "quantity": 1,
+        "title": "Pulsera Carlee",
+        "price": 210,
+        "image": "./productos/pulseras/pulsera-carlee.webp"
+      },
+      {
+        "id": "P",
+        "quantity": 1,
+        "title": "Pulsera Lowell",
+        "price": 260,
+        "image": "./productos/pulseras/pulsera-lowell.webp"
+      },
+      {
+        "id": "P",
+        "quantity": 1,
+        "title": "Pulsera Maxim",
+        "price": 250,
+        "image": "./productos/pulseras/Pulsera-maxim.webp"
+      }
+    ]
+      
+    
+  }
+
+  
